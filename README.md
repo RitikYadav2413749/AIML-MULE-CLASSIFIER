@@ -109,7 +109,7 @@ See [`PROJECT_STRUCTURE.txt`](PROJECT_STRUCTURE.txt) for the full annotated dire
 
 ## Setup Instructions
 
-bash
+```bash
 # 1. Clone repository
 git clone <repo-url>
 cd "AIML Mule classifier"
@@ -128,7 +128,7 @@ python run_pipeline.py
 
 # 6. Launch the Streamlit alert investigation dashboard
 streamlit run dashboard/app.py
-
+```
 
 ---
 
